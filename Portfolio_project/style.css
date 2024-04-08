@@ -1,0 +1,260 @@
+html
+ {
+    scroll-behavior: smooth;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+ }
+
+ .logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+ }
+ .logo:hover{
+    /* color: cadetblue; */
+    text-shadow: 0 0 25px cadetblue'
+                 0 0 50 px cadetblue;
+    transform: scale(1.1);
+ }
+
+ nav, .nav_bar{
+    display: flex;
+    /* color: cadetblue; */
+ }
+
+ a{
+    transition: all 300rems ease;
+    
+
+ }
+
+
+ nav{
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: black;
+    /* backdrop-filter: blur(20px); */
+    position: fixed;
+    position: relative;
+ }
+ .nav_bar, a{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+ }
+
+ .nav_bar a:hover{
+    color: cadetblue;
+    border-bottom: 3 px solid cadetblue;
+ }
+
+ .video_container{
+    /* display: flex; */
+    align-items: center;
+
+    /* width: 100%; */
+    margin-top: 30px;
+ }
+ video{
+    width: 100%;
+ }
+ .home{
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100%;
+    background: rgb(241,241,241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+
+ }
+ span{
+    color: cadetblue;
+ }
+
+ .bio{
+    max-width: 800px;
+
+ }
+ .bio h1{
+    font-size: 42px;
+    line-height: 1.2;
+ }
+
+ .bio p{
+    font-size: 30px;
+    margin: 25px 0 30px;
+ }
+
+.image img{
+    /* padding-bottom: 5%; */
+    margin-bottom: 3%;
+    border-radius: 70%;
+    width: 400px;
+    height: 100%;
+}
+ 
+
+ .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: grey;
+ }
+
+ .abt_img, img {
+    position: relative;
+    width: 500px;
+    box-shadow: 0 0 25px cadetblue,
+                0 0 50px cadetblue;
+
+ }
+
+ .abt h2{
+    text-align: left;
+    color: white;
+    font-size: 40px;
+ }
+
+ .abt p{
+    color: white;
+    font-size: 25px;
+    margin: 2em 0 3em;
+ }
+
+ .contact h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 40px;
+ }
+
+ .contact form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+ }
+
+ .contact form .input_b{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ .contact form .input_b input,
+ .contact form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 10px;
+    color: black;
+    background: rgb(241,241,241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+    border-color: cadetblue;
+ }
+
+ .btn{
+    padding: 15px 28px;
+    background-color: cadetblue;
+    color: white;
+    border: 2px transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+ }
+
+ .btn:hover{
+    color: rgb(172, 70, 219);
+    border-bottom: 3 px solid black;
+ }
+
+ .footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+ }
+
+ .footer .ftr_links{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+ }
+
+ .footer .ftr_links a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid cadetblue;
+    border-radius: 8px;
+    margin: 0 8px;
+    padding-bottom: 2px;
+    line-height: 38px;
+    box-shadow: inset 0 0 10px cadetblue;
+    
+
+ }
+
+ .footer .ftr_links a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: rgb(61, 214, 219);
+ }
+
+ .footer .nav_links ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+ }
+
+ .footer .nav_links ul li{
+    display: inline-block;
+    padding: 0 15px;
+ }
+
+ .footer .nav_links ul li a{
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+ }
+
+ .footer .nav_links ul li a:hover{
+    border-bottom: 3px solid cadetblue;
+ }
+
+ .footer .nav_links ul li a{
+    color: cadetblue;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+ }
+
+ .footer .copywrite{
+    margin-top: 15px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+ }
+
+ 
+
+
+
